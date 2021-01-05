@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo:300;800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #000;
-    --secondary-color: #fff;
+    --secondary-color: #3e4c72;
 }
 
 html {
@@ -14,8 +14,8 @@ html {
 }
 
 html.dark {
-    --primary-color: #fff;
-    --secondary-color: #333;
+    --primary-color: #3e4c72;
+    --secondary-color: #0e0938;
 }
 
 html.dark {
@@ -31,7 +31,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-color: #3e4c72;
+    background-color: var(--secondary-color);
 }
 
 .toggle {
@@ -134,4 +134,5 @@ body {
     line-height: 18px;
     transition: all 0.5s ease-in;
     font-size: 12px;
+    font-weight: 800;
 }
