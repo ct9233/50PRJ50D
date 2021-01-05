@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo:300;800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo:300;700;800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -70,6 +70,7 @@ body {
     height: 65px;
     width: 3px;
     transform-origin: bottom center;
+    transition: all 0.5s ease-in;
 }
 
 .needle.hour {
@@ -116,8 +117,9 @@ body {
 }
 
 .date {
-    color: #aaa;
+    color: var(--primary-color);
     font-size: 14px;
+    font-weight: 700;
     letter-spacing: 0.3px;
     text-transform: uppercase;
 }
@@ -128,10 +130,11 @@ body {
     border-radius: 50%;
     height: 18px;
     width: 18px;
+    transform: translateY(-1px);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    line-height: 18px;
+    line-height: 22px;
     transition: all 0.5s ease-in;
     font-size: 12px;
     font-weight: 800;
