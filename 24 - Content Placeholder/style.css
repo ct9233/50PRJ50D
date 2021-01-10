@@ -76,7 +76,7 @@ img {
 }
 
 .animated-bg {
-    background-image: linear-gradient(to right, #5a508d 0%, #58458d 10%, #5a508d 20%, #5a508d 100%);
+    background-image: linear-gradient(to right, #545d78 0%, #434b60 10%,  #545d78 20%,  #545d78 100%);
     background-size: 200% 100%;
     animation: bgPos 1s linear infinite;
 }
